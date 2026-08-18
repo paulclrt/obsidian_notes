@@ -137,3 +137,8 @@ gtkwave waveform.vcd
 This is practical when you don't have a toolchain setup and no rights on the machine.
 
 ![[edaplayground.png]]
+
+## More information
+
+Here are useful links:
+https://ghdl-rad.readthedocs.io/en/stable/using/QuickStartGuide.html
