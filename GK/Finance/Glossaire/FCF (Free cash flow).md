@@ -1,0 +1,1 @@
+Le _Free Cash Flow_ correspond à l'argent disponible que l'entreprise _pourrait_ distribuer sans compromettre son activité, qu'elle le fasse ou non.
