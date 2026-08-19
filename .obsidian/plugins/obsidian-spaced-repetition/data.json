@@ -75,8 +75,8 @@
     "dataStore": "NOTES",
     "cardCommentOnSameLine": false,
     "scheduleDataVaultLocation": "Spaced Repetition",
-    "showSchedulingDebugMessages": false,
-    "showParserDebugMessages": false,
+    "showSchedulingDebugMessages": true,
+    "showParserDebugMessages": true,
     "preferredDateFormatForNoteReviewQueue": "MMM DD YYYY",
     "preferredLocale": "-"
   },

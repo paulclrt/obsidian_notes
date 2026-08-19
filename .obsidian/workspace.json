@@ -8,68 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e284194d24151233",
+            "id": "cc1d638ac48f8df7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/Actualisation des dividendes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Actualisation des dividendes"
-            }
-          },
-          {
-            "id": "3216d05a000d8fae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/WCAA et CPMM (Cout moyen pondere du capital).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WCAA et CPMM (Cout moyen pondere du capital)"
-            }
-          },
-          {
-            "id": "39ea37074fa3ff5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/Valorisation entreprise.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Valorisation entreprise"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3f99a982051f5865",
         "type": "tabs",
         "children": [
-          {
-            "id": "fbd4dee30a0f5fe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/Indicateurs et ratios/Ratios secondaires.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ratios secondaires"
-            }
-          },
           {
             "id": "6d71f265b7c17b4a",
             "type": "leaf",
@@ -80,8 +33,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,21 +211,31 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bba62fc2e0b0c2ab",
+  "active": "cc1d638ac48f8df7",
   "lastOpenFiles": [
-    "Finance/Discounted Cash Flow.md",
-    "Finance/Finance.md",
-    "Finance/L'OR (investissement).md",
+    "TODO.md",
+    "assets/images/finance/videos/leopaul_hermes_analyse.png",
+    "assets/images/finance/videos",
+    "assets/images/finance",
+    "Pasted image 20260819174631.png",
+    "Finance/WCAA et CPMM (Cout moyen pondere du capital).md",
     "Finance/Actualisation des dividendes.md",
-    "Finance/Glossaire/FCF (Free cash flow).md",
+    "Finance/Discounted Cash Flow.md",
+    "Finance/Indicateurs et ratios/Ratios secondaires.md",
+    "Finance/video/Analyse Hermes - 2026 baisse, valorisations....md",
     "Finance/Valorisation entreprise.md",
+    "Finance/video/Finary - Optimisation fiscale....md",
+    "Finance/video",
+    "Finance/Finance.md",
+    "assets/pdfs/finance/EpargneEtPlacement_ING4_Finance_2025_V7 (3).pdf",
+    "assets/pdfs/finance",
+    "Finance/L'OR (investissement).md",
+    "Finance/Glossaire/FCF (Free cash flow).md",
     "Finance/Glossaire",
     "Finance/Indicateurs et ratios/PE Ratio.md",
-    "Finance/Indicateurs et ratios/Ratios secondaires.md",
     "Finance/Indicateurs et ratios/Price to cashflow.md",
     "Finance/Indicateurs et ratios/EV EBITDA Ratio.md",
     "Finance/Indicateurs et ratios",
-    "Finance/WCAA et CPMM (Cout moyen pondere du capital).md",
     "maths/maths.md",
     "assets/flashcards/maths/prépa/groupes_anneaux_flashcard_cours.md",
     "assets/flashcards/maths/prépa/groupes_anneaux_flashcard_fiche.md",
@@ -285,18 +247,9 @@
     "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_td.md",
     "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_fiche.md",
     "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_cours.md",
-    "assets/flashcards/maths/prépa/sommabilite_flashcard_td.md",
-    "assets/flashcards/maths/prépa/sommabilite_flashcard_fiche.md",
-    "assets/flashcards/maths/prépa/sommabilite_flashcard_cours.md",
-    "assets/flashcards/maths/prépa/series_vecteurs_flashcard_td.md",
     "maths/prépa/sedcIepvO",
     "maths/prépa/sedJWKrMc",
     "maths/prépa/sedQnvyxv",
-    "maths/prépa/sedCvZoV7",
-    "maths/prépa/sedv9IZqa",
-    "Lien vers assets/flashcards/maths/prépa",
-    "Lien vers assets/flashcards/maths",
-    "Lien vers assets/flashcards",
     "software eng/projects_opensource/linux_kernel/Kernel calls.canvas",
     "assets/images/generic/latex/latex_exemple_minipage.png",
     "assets/images/hardware eng/VHDL/gtkwave_screenshot.png",
