@@ -1,1 +1,9 @@
-{}
+{
+  "baseFontSizeAction": false,
+  "baseFontSize": 15,
+  "showViewHeader": true,
+  "showRibbon": true,
+  "textFontFamily": "NewComputerModern08",
+  "cssTheme": "Obsidian gruvbox",
+  "theme": "obsidian"
+}

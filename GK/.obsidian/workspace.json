@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b4297d104614dd3",
+        "id": "d23a82c796c4f928",
         "type": "tabs",
         "children": [
           {
-            "id": "637f6065d894ddf3",
+            "id": "af49b0110b76143e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assets/flashcards/VHDL flashcard.md",
+                "file": "Engineering/software eng/projects_opensource/linux_kernel/Linux kernel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VHDL flashcard"
+              "title": "Linux kernel"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f10feb68029ab1df",
@@ -99,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/flashcards/VHDL flashcard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "assets/flashcards/VHDL flashcard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +160,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "assets/flashcards/VHDL flashcard.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,29 +199,47 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "637f6065d894ddf3",
+  "active": "af49b0110b76143e",
   "lastOpenFiles": [
-    "hardware eng/VHDL.md",
-    "assets/flashcards/VHDL flashcard.md",
-    "assets/flashcards",
+    "Engineering",
+    "software eng/projects_opensource/linux_kernel/Kernel calls.canvas",
+    "Engineering/software eng/projects_opensource/linux_kernel/Linux kernel.md",
+    "assets/pdfs/how_linux_works.pdf",
+    "Physics/Physics.md",
+    "Engineering/software eng/Computer/vms/libvirt-networking/lib-virt networking.md",
     "maths/maths.md",
-    "assets/images/hardware eng/VHDL/edaplayground.png",
-    "maths/prépa/Calcul asymptotique.md",
-    "assets/pdfs/prépa/SeriesDeVecteurs.pdf",
-    "assets/pdfs/prépa/main.pdf",
-    "assets/pdfs/prépa/limites_continuite.pdf",
-    "assets/pdfs/prépa/GroupesEtAnneaux.pdf",
-    "assets/pdfs/prépa/groupes_anneaux.pdf",
-    "assets/pdfs/prépa/Calculs_asymptotiques_2020.pdf",
-    "assets/pdfs/prépa/calculs_asymptotiques.pdf",
-    "assets/pdfs/prépa",
-    "maths/prépa",
+    "Engineering/software eng/Computer/vms/libvirt-networking",
+    "Engineering/software eng/Computer/vms",
+    "maths/ProffWriting.md",
+    "maths/prépa/Algèbre Linéaire.md",
+    "maths/prépa/Résumé prépa.md",
+    "Physics/Statistical physics/Statistical Physics.md",
+    "assets/pdfs/physics/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf",
+    "assets/pdfs/physics",
+    "Untitled.md",
+    "Physics/Statistical physics",
+    "Physics",
+    "assets/flashcards/C/C (système+embarqué).md",
+    "flashcards-skills.md",
+    "assets/flashcards/Maths flashcard.md",
+    "assets/flashcards/C",
+    "maths/Traitement signal/Filtre Kalman.md",
+    "generic/Entreprenariat/Entrepreunariat.md",
+    "assets/pdfs/maths/traitement signal/introKalman_vf_2008.pdf",
+    "assets/pdfs/maths/traitement signal",
+    "Engineering/hardware eng/RISC-V/Risc-v.md",
+    "generic/latex/Latex - personal tips and tricks.md",
+    "Engineering/software eng/Computer/dev_tools/GDB.md",
+    "Finance/Finance.md",
+    "Finance/Valorisation entreprise.md",
+    "assets/images/generic/latex/latex_exemple_minipage.png",
+    "Engineering/hardware eng/HDL/VHDL.md",
+    "Engineering/hardware eng/HDL/FPGA.md",
+    "Engineering/software eng/Computer/Boot process/UEFI.md",
+    "Engineering/software eng/Computer/Boot process/BIOS.md",
+    "Engineering/software eng/Languages/Lua.md",
+    "Engineering/software eng/Languages/C++ modern (17+).md",
     "assets/images/hardware eng/VHDL/gtkwave_screenshot.png",
-    "hardware eng/FPGA.md",
-    "Untitled.canvas",
-    "software eng/Languages/C (système).md",
-    "software eng/Languages/C++ modern (17+).md",
-    "software eng/Languages/Lua.md",
-    "Welcome.md"
+    "assets/images/hardware eng/VHDL/edaplayground.png"
   ]
 }
