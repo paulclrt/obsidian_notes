@@ -4,24 +4,84 @@
     "type": "split",
     "children": [
       {
-        "id": "d23a82c796c4f928",
+        "id": "6028f90cff8f002e",
         "type": "tabs",
         "children": [
           {
-            "id": "af49b0110b76143e",
+            "id": "e284194d24151233",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering/software eng/projects_opensource/linux_kernel/Linux kernel.md",
+                "file": "Finance/Actualisation des dividendes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux kernel"
+              "title": "Actualisation des dividendes"
+            }
+          },
+          {
+            "id": "3216d05a000d8fae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finance/WCAA et CPMM (Cout moyen pondere du capital).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WCAA et CPMM (Cout moyen pondere du capital)"
+            }
+          },
+          {
+            "id": "39ea37074fa3ff5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finance/Valorisation entreprise.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Valorisation entreprise"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "3f99a982051f5865",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbd4dee30a0f5fe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Finance/Indicateurs et ratios/Ratios secondaires.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ratios secondaires"
+            }
+          },
+          {
+            "id": "6d71f265b7c17b4a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,8 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 402.5
   },
   "right": {
     "id": "f10feb68029ab1df",
@@ -188,6 +247,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hello-world:Greet": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,46 +259,46 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "af49b0110b76143e",
+  "active": "bba62fc2e0b0c2ab",
   "lastOpenFiles": [
-    "Engineering",
-    "software eng/projects_opensource/linux_kernel/Kernel calls.canvas",
-    "Engineering/software eng/projects_opensource/linux_kernel/Linux kernel.md",
-    "assets/pdfs/how_linux_works.pdf",
-    "Physics/Physics.md",
-    "Engineering/software eng/Computer/vms/libvirt-networking/lib-virt networking.md",
-    "maths/maths.md",
-    "Engineering/software eng/Computer/vms/libvirt-networking",
-    "Engineering/software eng/Computer/vms",
-    "maths/ProffWriting.md",
-    "maths/prépa/Algèbre Linéaire.md",
-    "maths/prépa/Résumé prépa.md",
-    "Physics/Statistical physics/Statistical Physics.md",
-    "assets/pdfs/physics/Lecture-Notes-Stat-Phys-L3-Bocquet.pdf",
-    "assets/pdfs/physics",
-    "Untitled.md",
-    "Physics/Statistical physics",
-    "Physics",
-    "assets/flashcards/C/C (système+embarqué).md",
-    "flashcards-skills.md",
-    "assets/flashcards/Maths flashcard.md",
-    "assets/flashcards/C",
-    "maths/Traitement signal/Filtre Kalman.md",
-    "generic/Entreprenariat/Entrepreunariat.md",
-    "assets/pdfs/maths/traitement signal/introKalman_vf_2008.pdf",
-    "assets/pdfs/maths/traitement signal",
-    "Engineering/hardware eng/RISC-V/Risc-v.md",
-    "generic/latex/Latex - personal tips and tricks.md",
-    "Engineering/software eng/Computer/dev_tools/GDB.md",
+    "Finance/Discounted Cash Flow.md",
     "Finance/Finance.md",
+    "Finance/L'OR (investissement).md",
+    "Finance/Actualisation des dividendes.md",
+    "Finance/Glossaire/FCF (Free cash flow).md",
     "Finance/Valorisation entreprise.md",
+    "Finance/Glossaire",
+    "Finance/Indicateurs et ratios/PE Ratio.md",
+    "Finance/Indicateurs et ratios/Ratios secondaires.md",
+    "Finance/Indicateurs et ratios/Price to cashflow.md",
+    "Finance/Indicateurs et ratios/EV EBITDA Ratio.md",
+    "Finance/Indicateurs et ratios",
+    "Finance/WCAA et CPMM (Cout moyen pondere du capital).md",
+    "maths/maths.md",
+    "assets/flashcards/maths/prépa/groupes_anneaux_flashcard_cours.md",
+    "assets/flashcards/maths/prépa/groupes_anneaux_flashcard_fiche.md",
+    "assets/flashcards/maths/prépa/groupes_anneaux_flashcard_td.md",
+    "maths/prépa/Calcul asymptotique.md",
+    "assets/flashcards/maths/prépa/calc_asympt_flashcard_cours.md",
+    "assets/flashcards/maths/prépa/derivation_flashcard_cours.md",
+    "maths/prépa/Séries de vecteurs.md",
+    "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_td.md",
+    "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_fiche.md",
+    "assets/flashcards/maths/prépa/suites_vecteurs_flashcard_cours.md",
+    "assets/flashcards/maths/prépa/sommabilite_flashcard_td.md",
+    "assets/flashcards/maths/prépa/sommabilite_flashcard_fiche.md",
+    "assets/flashcards/maths/prépa/sommabilite_flashcard_cours.md",
+    "assets/flashcards/maths/prépa/series_vecteurs_flashcard_td.md",
+    "maths/prépa/sedcIepvO",
+    "maths/prépa/sedJWKrMc",
+    "maths/prépa/sedQnvyxv",
+    "maths/prépa/sedCvZoV7",
+    "maths/prépa/sedv9IZqa",
+    "Lien vers assets/flashcards/maths/prépa",
+    "Lien vers assets/flashcards/maths",
+    "Lien vers assets/flashcards",
+    "software eng/projects_opensource/linux_kernel/Kernel calls.canvas",
     "assets/images/generic/latex/latex_exemple_minipage.png",
-    "Engineering/hardware eng/HDL/VHDL.md",
-    "Engineering/hardware eng/HDL/FPGA.md",
-    "Engineering/software eng/Computer/Boot process/UEFI.md",
-    "Engineering/software eng/Computer/Boot process/BIOS.md",
-    "Engineering/software eng/Languages/Lua.md",
-    "Engineering/software eng/Languages/C++ modern (17+).md",
     "assets/images/hardware eng/VHDL/gtkwave_screenshot.png",
     "assets/images/hardware eng/VHDL/edaplayground.png"
   ]
