@@ -16,6 +16,10 @@ $$P_0 = \frac{D_1}{K_e - g}$$
 - $P_0$ : Juste valeur intrinsèque de l'action aujourd'hui.
 - $D_1$ : Dividende attendu pour l'année prochaine ($D_1 = D_0 \times (1 + g)$).
 - $K_e$ : Taux de rendement exigé par l'actionnaire (calculé via le MEDAF / CAPM).
+$$
+K_e = R_f +\beta(R_m-R_f)
+$$
+avec $Rf$ le taux sans risque. $\beta$ le sensibilité de l'action aux mouvement du marché et $R_m-R_f$ la prime de risque du marché (rendement attendu par les investisseurs sinon ils vont se tourner vers les obligations etc sans risque). Autres explication sur [[WCAA et CPMM (Cout moyen pondere du capital)]]
 - $g$ : Taux de croissance annuel perpétuel estimé du dividende (avec obligatoirement $K_e > g$).
 ### 2. Le DDM multi-périodes (2 phases de croissance)
 
