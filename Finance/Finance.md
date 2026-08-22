@@ -1,8 +1,8 @@
-[[Valorisation entreprise]]
+[[Finance/Valorisation entreprise]]
 [[Les Marchés]]
 [[Fiscailté]]
 [[L'OR (investissement)]]
-
+[[Black-Scholes]]
 
 ## Files
 Cours ECE Paris Finance Epargne et placement:

@@ -21,6 +21,8 @@ K_e = R_f +\beta(R_m-R_f)
 $$
 avec $Rf$ le taux sans risque. $\beta$ le sensibilité de l'action aux mouvement du marché et $R_m-R_f$ la prime de risque du marché (rendement attendu par les investisseurs sinon ils vont se tourner vers les obligations etc sans risque). Autres explication sur [[WCAA et CPMM (Cout moyen pondere du capital)]]
 - $g$ : Taux de croissance annuel perpétuel estimé du dividende (avec obligatoirement $K_e > g$).
+
+Il y a un exercice de moi qui l'applique à Total (très mal appliqué mais on apprend doucement): [[me_learning_DDM_on_total.ods]]
 ### 2. Le DDM multi-périodes (2 phases de croissance)
 
 En pratique, une entreprise peut connaître une phase de forte croissance de ses dividendes pendant quelques années avant de stabiliser sa distribution. On découpe alors le calcul en deux étapes :
