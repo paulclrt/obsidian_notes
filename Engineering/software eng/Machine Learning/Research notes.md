@@ -16,3 +16,7 @@ When looking at these frameworks applied to older vs. newer models, the industry
 | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Older/Smaller Model:** Nemotron 3 Ultra  <br>**Newer Frontier Model:** Gemini/Opus 4.8 | Customized LangChain Harness vs. Generic New Model Scaffolding      | **Nemotron 3 Ultra surged to within 1 point** of the newer flagship model. It achieved this at **1/10th the token cost** ($4.48 vs $43.48) purely by swapping the framework scaffolding. |
 | **Same Base Model:** (e.g., GPT-5.6 variant)                                             | Retained Reasoning & Context Compaction flags enabled vs. Stock API | On the tough `ARC-AGI-3` benchmark, toggling harness-level runtime controls **tripled the score** and **reduced output tokens by 6x** without altering a single base model weight.       |
+
+# Bigger is better
+The bitter lesson - rich sutton
+http://www.incompleteideas.net/IncIdeas/BitterLesson.html

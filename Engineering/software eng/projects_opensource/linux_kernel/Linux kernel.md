@@ -1,3 +1,7 @@
+Linux Foundation: buliding the simplestpossible linux system:
+https://www.youtube.com/watch?v=Sk9TatW9ino&pp=ugUEEgJlbg%3D%3D
+Linux tracing how the kernel handles tcp packets:
+https://www.youtube.com/watch?v=ck4WvYM9V4c
 ## Pre Kernel
 The linux kernel starts after booting from [[UEFI]] or [[BIOS]].
 
