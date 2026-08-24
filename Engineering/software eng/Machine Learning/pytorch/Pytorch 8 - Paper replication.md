@@ -1,0 +1,17 @@
+Replicating work from papers is a fantastic way to practice and improve your skills.
+
+Replicating research is such a tough problem, phenomenal machine learning libraries and tools such as, [HuggingFace](https://huggingface.co/), [PyTorch Image Models](https://github.com/rwightman/pytorch-image-models) (`timm` library) and [fast.ai](https://www.fast.ai/) have been born out of making machine learning research more accessible.
+
+Beware, trying to stay on top of it is like trying to outrun a hamster wheel
+
+| **Resource**                                                                             | **What is it?**                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [arXiv](https://arxiv.org/)                                                              | Pronounced "archive", arXiv is a free and open resource for reading technical articles on everything from physics to computer science (including machine learning).                                                                                                                                                                                                                        |
+| [AK Twitter](https://twitter.com/_akhaliq)                                               | The AK Twitter account publishes machine learning research highlights, often with live demos almost every day. I don't understand 9/10 posts but I find it fun to explore every so often.                                                                                                                                                                                                  |
+| [Papers with Code](https://paperswithcode.com/)                                          | A curated collection of trending, active and greatest machine learning papers, many of which include code resources attached. Also includes a collection of common machine learning datasets, benchmarks and current state-of-the-art models.                                                                                                                                              |
+| [lucidrains' `vit-pytorch` GitHub repository](https://github.com/lucidrains/vit-pytorch) | Less of a place to find research papers and more of an example of what paper replicating with code on a larger-scale and with a specific focus looks like. The `vit-pytorch` repository is a collection of Vision Transformer model architectures from various research papers replicated with PyTorch code (much of the inspiration for this notebook was gathered from this repository). |
+
+> Paper replicated in the code associated: https://arxiv.org/pdf/2010.11929
+Code associated: [[7.0main.py]]
+
+

@@ -1,0 +1,3 @@
+I will not write notes over this because i am only interested in creating, finetunning and doing research on models.
+Deployment is basically edge or cloud...
+If the reader is interested, here is the link to learn from: https://www.learnpytorch.io/09_pytorch_model_deployment/
