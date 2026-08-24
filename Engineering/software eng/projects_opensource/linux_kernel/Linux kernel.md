@@ -9,6 +9,19 @@ The linux kernel starts after booting from [[UEFI]] or [[BIOS]].
 The first function being called is `start_kernel` from the `init/main.c` file.
 https://github.com/torvalds/linux/blob/master/init/main.c#L978
 
+
+## Online ressources:
+
+This course is INCREDIBLE: https://linux-kernel-labs.github.io/refs/heads/master/
+Chatgpt chat: https://chatgpt.com/s/t_6a8ca850850c8191ae76e8907ea32277
+
+## Books
+
+### Linux kernel development
+This is a book about development !
+![[Linux_Kernel_Development.pdf]]
+
+### How linux works (this is a book for users - not kernel dev)
 ![[how_linux_works.pdf]]
 ## Building the kernel
 
