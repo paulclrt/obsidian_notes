@@ -30,7 +30,7 @@ Pourquoi `std_logic` est-il généralement préférable à `bit` ?
 **Réponse:**
 `bit` ne peut valoir que `'0'` ou `'1'`.
 `std_logic` modélise aussi l'inconnu, la haute impédance et les conflits de pilotes, ce qui rend la simulation plus réaliste.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-29,3,230-->
 
 ## 5. Valeurs importantes de `std_logic`
 Que représentent au moins `'0'`, `'1'`, `'U'`, `'X'` et `'Z'` ?
@@ -46,7 +46,7 @@ Quelle différence essentielle entre un `signal` et une `variable` ?
 **Réponse:**
 Une affectation de signal avec `<=` est planifiée pour une mise à jour ultérieure.
 Une affectation de variable avec `:=` prend effet immédiatement dans le processus qui la contient.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-29,3,230-->
 
 ## 7. Affectation concurrente
 Comment écrire une porte OU combinatoire sans processus ?
@@ -62,7 +62,7 @@ Comment écrire correctement un processus combinatoire ?
 **Réponse:**
 Utiliser `process(all)` en VHDL-2008, ou mettre toutes les lectures dans la liste de sensibilité.
 Attribuer une valeur à chaque sortie sur tous les chemins afin d'éviter d'inférer un latch.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-27,1,190-->
 
 ## 9. Instructions séquentielles et concurrentes
 Où peut-on employer `if`, `case` et `wait` ?
@@ -78,7 +78,7 @@ Quel paquet faut-il utiliser pour les calculs sur vecteurs, et quels types fourn
 **Réponse:**
 Utiliser `ieee.numeric_std.all`.
 Il fournit `unsigned` et `signed`, ainsi que les conversions `to_unsigned`, `to_signed`, `unsigned` et `signed`.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-27,1,210-->
 
 ## 11. Conversions numériques
 Comment convertir un entier naturel `n` sur huit bits et relire un `unsigned` `u` comme entier ?
@@ -86,7 +86,7 @@ Comment convertir un entier naturel `n` sur huit bits et relire un `unsigned` `u
 **Réponse:**
 Écrire `to_unsigned(n, 8)` pour obtenir un `unsigned(7 downto 0)`.
 Écrire `to_integer(u)` pour obtenir sa valeur entière.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-27,1,210-->
 
 ## 12. Largeur et sens d'un vecteur
 Que signifie `unsigned(7 downto 0)` ?
@@ -102,7 +102,7 @@ Comment relier proprement les ports d'une instance ?
 **Réponse:**
 Préférer l'association nommée, par exemple `a => a_in, b => b_in, q => q_out`.
 Elle est plus lisible et ne dépend pas de l'ordre de déclaration des ports.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-28,2,210-->
 
 ## 14. Entité correcte à simuler
 Après analyse et élaboration d'un testbench dont l'entité est `tb_orgate`, quelle entité faut-il exécuter avec GHDL ?
@@ -110,4 +110,4 @@ Après analyse et élaboration d'un testbench dont l'entité est `tb_orgate`, qu
 **Réponse:**
 Il faut exécuter `tb_orgate`, par exemple `ghdl -r tb_orgate --vcd=waveform.vcd`.
 L'entité exécutée est le testbench, pas le composant testé.
-<!--SR:!2026-08-25,1,230-->
+<!--SR:!2026-08-29,3,250-->

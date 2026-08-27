@@ -33,6 +33,7 @@ class_names = train_data.classes          # ['pizza', 'steak', 'sushi']
 class_to_idx = train_data.class_to_idx    # {'pizza': 0, 'steak': 1, 'sushi': 2}
 ```
 Structure : dossier par classe, `ImageFolder` infère labels automatiquement.
+<!--SR:!2026-08-26,1,230-->
 
 ## 2. Custom Dataset Class (Subclassing Dataset)
 
@@ -69,6 +70,7 @@ class ImageFolderCustom(Dataset):
         return img, class_idx
 ```
 3 méthodes obligatoires : `__init__`, `__len__`, `__getitem__`.
+<!--SR:!2026-08-26,1,230-->
 
 ## 3. Transforms Composition
 
@@ -90,6 +92,7 @@ test_transform = transforms.Compose([
 ])
 ```
 `Compose` applique séquentiellement. Augmentation (flip, rotation, color jitter) **uniquement sur train**.
+<!--SR:!2026-08-26,1,230-->
 
 ## 4. Data Augmentation Transforms
 
@@ -106,6 +109,7 @@ transforms.RandomAffine(degrees=10, translate=(0.1, 0.1))  # Affine
 transforms.RandomPerspective()              # Perspective
 ```
 Rendent le modèle plus robuste en créant variété artificielle.
+<!--SR:!2026-08-25,0,230-->
 
 ## 5. Normalization Transform
 
@@ -120,6 +124,7 @@ transforms.Normalize(
 ```
 Appliqué **après** `ToTensor()` (qui met en [0,1]). Pour grayscale : `mean=[0.5], std=[0.5]`.
 Formule : `(pixel - mean) / std` → centré sur 0, écart-type 1.
+<!--SR:!2026-08-25,0,230-->
 
 ## 6. DataLoader Parameters
 
@@ -139,6 +144,7 @@ DataLoader(
 ```
 - `num_workers` > 0 : chargement parallèle (Linux: fork, Windows: spawn)
 - `pin_memory` : alloue mémoire page-locked pour GPU transfer plus rapide
+<!--SR:!2026-08-25,0,230-->
 
 ## 7. Custom Dataset vs ImageFolder
 
@@ -151,6 +157,7 @@ Quand utiliser un Dataset custom vs `ImageFolder` ?
 | Pas de logique spéciale | Labels depuis CSV, JSON, DB |
 | Rapide à mettre en place | Contrôle total sur `__getitem__` |
 | | Multi-labels, segmentation, etc. |
+<!--SR:!2026-08-29,4,270-->
 
 ## 8. Accessing Data from DataLoader
 
@@ -168,6 +175,7 @@ for batch_idx, (images, labels) in enumerate(train_dataloader):
     # training step
 ```
 `images` = tenseur float32 [0,1], `labels` = tenseur int64 (indices classes).
+<!--SR:!2026-08-25,0,230-->
 
 ## 9. Single Image Inference
 
@@ -195,6 +203,7 @@ with torch.inference_mode():
     pred_label = class_names[pred_class]
 ```
 `unsqueeze(0)` ajoute dimension batch. `argmax` donne indice classe.
+<!--SR:!2026-08-25,0,230-->
 
 ## 10. Downloading Data Programmatically
 
@@ -221,6 +230,7 @@ with zipfile.ZipFile(zip_path, "r") as zip_ref:
 zip_path.unlink()
 ```
 Utile pour scripts reproductibles / CI/CD.
+<!--SR:!2026-08-28,3,250-->
 
 ## 11. Class Names from Dataset
 
@@ -238,6 +248,7 @@ class_names = train_data.classes
 class_to_idx = train_data.class_to_idx
 ```
 Ordre alphabétique par défaut. `idx_to_class` utile pour mapping prédiction → nom.
+<!--SR:!2026-08-26,1,230-->
 
 ## 12. Train/Val/Test Split from Single Folder
 
@@ -260,6 +271,7 @@ val_dl = DataLoader(val_ds, batch_size=32, shuffle=False)
 test_dl = DataLoader(test_ds, batch_size=32, shuffle=False)
 ```
 `random_split` garde la distribution des classes. Pour split stratifié → `sklearn.model_selection.train_test_split` sur indices.
+<!--SR:!2026-08-25,0,230-->
 
 ## 13. WeightedRandomSampler for Imbalanced Data
 
@@ -284,3 +296,4 @@ train_dataloader = DataLoader(train_data, batch_size=32, sampler=sampler)
 # Note: shuffle=False car sampler gère l'ordre
 ```
 Échantillonne plus souvent les classes sous-représentées.
+<!--SR:!2026-08-25,0,230-->

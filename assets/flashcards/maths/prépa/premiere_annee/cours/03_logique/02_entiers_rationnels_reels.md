@@ -11,6 +11,7 @@ Que signifie $a\mid b$ dans $\mathbb Z$, et quelles propriétés immédiates fau
 **Réponse:**
 $a\mid b$ signifie qu'il existe $k\in\mathbb Z$ tel que $b=ak$.
 Si $a\mid b$ et $a\mid c$, alors $a\mid(ub+vc)$ pour tous $u,v\in\mathbb Z$.
+<!--SR:!2026-08-26,1,230-->
 
 ## 3. PGCD et identité de Bézout
 Quel lien entre le PGCD de $a,b\in\mathbb Z$ et les combinaisons linéaires de $a,b$ ?
@@ -25,6 +26,7 @@ Les diviseurs communs de $a$ et $b$ sont exactement les diviseurs de $\gcd(a,b)$
 **Réponse:**
 Si $a\mid bc$ et $\gcd(a,b)=1$, alors $a\mid c$.
 En particulier, si $p$ est premier et $p\mid bc$, alors $p\mid b$ ou $p\mid c$.
+<!--SR:!2026-08-26,1,230-->
 
 ## 5. Décomposition en facteurs premiers
 Quel théorème décrit la décomposition des entiers naturels non nuls ?
@@ -39,6 +41,7 @@ Comment définit-on $a\equiv b\ [n]$ et quelles opérations la conservent ?
 $a\equiv b\ [n]$ signifie $n\mid(a-b)$.
 On peut additionner, soustraire et multiplier des congruences de même modulo.
 Si $a\equiv b\ [n]$, alors $P(a)\equiv P(b)\ [n]$ pour tout $P\in\mathbb Z[X]$.
+<!--SR:!2026-08-25,0,230-->
 
 ## 7. Nombres rationnels
 Comment caractériser un rationnel et quand deux écritures fractionnaires représentent-elles le même rationnel ?
@@ -46,6 +49,7 @@ Comment caractériser un rationnel et quand deux écritures fractionnaires repr�
 **Réponse:**
 $x\in\mathbb Q$ si $x=\frac pq$ avec $p\in\mathbb Z$ et $q\in\mathbb Z^*$.
 $\frac pq=\frac{p'}{q'}$ si et seulement si $pq'=p'q$.
+<!--SR:!2026-08-25,0,230-->
 
 ## 8. Borne supérieure
 Définir $s=\sup A$ pour une partie non vide majorée $A\subset\mathbb R$.
@@ -53,6 +57,7 @@ Définir $s=\sup A$ pour une partie non vide majorée $A\subset\mathbb R$.
 **Réponse:**
 $s$ est un majorant de $A$ et tout majorant $M$ de $A$ vérifie $s\le M$.
 Équivalemment, $\forall\varepsilon>0$, il existe $a\in A$ tel que $s-\varepsilon<a\le s$.
+<!--SR:!2026-08-25,0,230-->
 
 ## 9. Complétude de $\mathbb R$
 Quel axiome distingue fondamentalement $\mathbb R$ de $\mathbb Q$ ?
@@ -60,6 +65,7 @@ Quel axiome distingue fondamentalement $\mathbb R$ de $\mathbb Q$ ?
 **Réponse:**
 Toute partie non vide de $\mathbb R$ majorée possède une borne supérieure dans $\mathbb R$.
 Cette propriété de complétude est fausse dans $\mathbb Q$.
+<!--SR:!2026-08-25,0,230-->
 
 ## 10. Valeur absolue
 Quelles inégalités sur la valeur absolue faut-il connaître ?
@@ -68,6 +74,7 @@ Quelles inégalités sur la valeur absolue faut-il connaître ?
 $|x|\le r$ équivaut à $-r\le x\le r$ pour $r\ge0$.
 $|x+y|\le|x|+|y|$.
 $\big||x|-|y|\big|\le|x-y|$.
+<!--SR:!2026-08-26,1,230-->
 
 ## 11. Partie entière
 Comment caractériser la partie entière $\lfloor x\rfloor$ ?

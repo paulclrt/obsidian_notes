@@ -19,6 +19,7 @@ Montrer que $\{x\in\mathbb R\mid\forall\varepsilon>0,\ x> -\varepsilon\}=\mathbb
 **Réponse:**
 Si $x\ge0$, alors $x> -\varepsilon$ pour tout $\varepsilon>0$.
 Réciproquement, si $x<0$, choisir $\varepsilon=-x/2>0$ ; alors $x> -\varepsilon=x/2$ est impossible.
+<!--SR:!2026-08-27,1,230-->
 
 ## 4. Différence symétrique
 Montrer que $A\setminus B=B\setminus A$ et interpréter cet ensemble.
@@ -47,6 +48,7 @@ Montrer que $A\Rightarrow(B\land C)$ est équivalente à $(A\Rightarrow B)\land(
 **Réponse:**
 Les deux propositions sont vraies exactement lorsque, dès que $A$ est vraie, $B$ et $C$ le sont toutes les deux.
 On peut aussi écrire $A\Rightarrow B$ comme $\neg A\lor B$ et distribuer $\lor$ sur $\land$.
+<!--SR:!2026-08-26,0,230-->
 
 ## 8. Contraposée utile
 Démontrer : si $n^2$ est pair, alors $n$ est pair.

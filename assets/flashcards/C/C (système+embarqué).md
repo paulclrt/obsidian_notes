@@ -397,7 +397,7 @@ En programmation embarquée, c'est particulièrement utile pour vérifier des AB
 _Static_assert(sizeof(struct descriptor) == 16, "");
 _Static_assert(offsetof(struct descriptor, status) == 12, "");
 ```
-<!--SR:!2026-08-19,1,230-->
+<!--SR:!2026-08-27,2,230-->
 
 ## 17. `_Generic`
 
@@ -418,7 +418,7 @@ C'est une sorte de **type dispatch statique**.
 Il ne s'agit pas de polymorphisme dynamique.
 Le compilateur sélectionne une expression correspondant au type de l'expression contrôlée.
 C'est l'un des mécanismes permettant de construire des interfaces « pseudo-génériques » en C.
-<!--SR:!2026-08-21,3,250-->
+<!--SR:!2026-09-05,11,270-->
 
 ## 18. `_Generic` évalue-t-il son expression de contrôle ?
 
@@ -785,9 +785,9 @@ Que signifie :
 void foo(const char *, ...)
     __attribute__((sentinel));
 ```
-?  
-**Réponse:**  
-Le compilateur exige que l'appel termine ses arguments variadiques par un sentinel.  
+?
+**Réponse:**
+Le compilateur exige que l'appel termine ses arguments variadiques par un sentinel.
 Conceptuellement :
 ```c
 foo("a", "b", "c", NULL);
@@ -797,6 +797,7 @@ et il peut détecter :
 foo("a", "b", "c");
 ```
 GCC fournit cet attribut spécifiquement pour les fonctions variadiques.
+<!--SR:!2026-08-26,1,230-->
 
 ## 36. `__attribute__((returns_nonnull))`
 
@@ -849,7 +850,7 @@ struct A {
 };
 ```
 Le périmètre de l'attribut n'est pas identique.
-<!--SR:!2026-08-18,0,230-->
+<!--SR:!2026-08-26,1,210-->
 
 ## 39. `transparent_union`
 
@@ -878,7 +879,7 @@ f((ptr_u){ .p = p });
 ```
 GCC traite aussi l'appel avec les conventions d'appel correspondant au premier membre, sous les contraintes documentées.
 C'est une extension assez typique des bibliothèques système historiques.
-<!--SR:!2026-08-18,0,230-->
+<!--SR:!2026-08-26,1,190-->
 
 ## 40. Statement expressions : pourquoi c'est dangereux dans une macro ?
 
@@ -1452,16 +1453,17 @@ C'est un idiome fondamental des headers de bas niveau.
 
 ## 68. Pourquoi `extern inline` est bizarre en C ?
 
-Pourquoi les règles sont-elles parfois surprenantes ?  
-?  
-**Réponse:**  
-Parce que les règles de `inline` en C99 sont notoirement différentes de celles de C++ et du GNU89 historique.  
+Pourquoi les règles sont-elles parfois surprenantes ?
+?
+**Réponse:**
+Parce que les règles de `inline` en C99 sont notoirement différentes de celles de C++ et du GNU89 historique.
 GCC possède même :
 ```c
 __attribute__((gnu_inline))
 ```
-pour demander la sémantique GNU historique d'inline.  
+pour demander la sémantique GNU historique d'inline.
 C'est précisément le genre de détail qui devient visible quand tu travailles dans des headers systèmes compilables avec plusieurs dialectes C.
+<!--SR:!2026-08-26,1,230-->
 
 ## 69. `__attribute__((visibility("hidden")))`
 
