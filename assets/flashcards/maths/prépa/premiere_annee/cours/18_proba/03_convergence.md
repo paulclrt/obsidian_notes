@@ -4,27 +4,32 @@
 ?
 **Réponse:**
 Pour $a>0$, $\mathbb P(X\ge a)\le\frac{\mathbb E(X)}a$.
+<!--SR:!2026-08-30,0,230-->
 
 ## 2. Inégalité de Bienaymé-Tchebychev
 Énoncer l'inégalité de Tchebychev.
 ?
 **Réponse:**
 Si $X$ admet une variance, alors pour $\varepsilon>0$, $\mathbb P(|X-\mathbb E(X)|\ge\varepsilon)\le\frac{\operatorname{Var}(X)}{\varepsilon^2}$.
+<!--SR:!2026-08-30,0,230-->
 
 ## 3. Convergence en probabilité
 Que signifie $X_n\xrightarrow{\mathbb P}X$ ?
 ?
 **Réponse:**
 Pour tout $\varepsilon>0$, $\mathbb P(|X_n-X|>\varepsilon)\to0$.
+<!--SR:!2026-08-30,0,230-->
 
 ## 4. Convergence en loi
 Que signifie $X_n\xrightarrow{\mathcal L}X$ ?
 ?
 **Réponse:**
 Pour tout point de continuité $x$ de $F_X$, on a $F_{X_n}(x)\to F_X(x)$.
+<!--SR:!2026-08-30,0,230-->
 
 ## 5. Loi faible des grands nombres
 Quel énoncé retenir pour une moyenne de variables i.i.d. d'espérance $m$ et variance finie ?
 ?
 **Réponse:**
 Si $\overline X_n=\frac1n\sum_{k=1}^nX_k$, alors $\overline X_n\xrightarrow{\mathbb P}m$.
+<!--SR:!2026-08-30,0,230-->

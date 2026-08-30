@@ -11,6 +11,7 @@ Qu'est-ce qu'un système complet d'événements ?
 **Réponse:**
 C'est une famille d'événements deux à deux disjoints dont la réunion est $\Omega$.
 On l'appelle aussi une partition de l'univers.
+<!--SR:!2026-09-03,4,270-->
 
 ## 3. Formules élémentaires
 Quelles formules de probabilité faut-il savoir utiliser immédiatement ?

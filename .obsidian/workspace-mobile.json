@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e085e65e68593777",
+        "id": "45aa43f77b8d1c79",
         "type": "tabs",
         "children": [
           {
-            "id": "584b1f0d63518f62",
+            "id": "bedaa3fdc255fdfa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engineering/hardware eng/HDL/VHDL.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "VHDL"
+              "title": "New tab"
             }
           }
         ]
@@ -176,6 +172,16 @@
           "icon": "git-pull-request",
           "title": "Source Control"
         }
+      },
+      {
+        "id": "683e14308eea7d7a",
+        "type": "leaf",
+        "state": {
+          "type": "git-history-view",
+          "state": {},
+          "icon": "history",
+          "title": "History"
+        }
       }
     ],
     "currentTab": 4
@@ -193,8 +199,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e1e9e444e98002db",
+  "active": "bedaa3fdc255fdfa",
   "lastOpenFiles": [
+    "assets/code/pytorch/5.0_main.py.md",
+    "Engineering/software eng/Machine Learning/pytorch/Pytorch 5 - Custom Datasets.md",
     "Engineering/hardware eng/HDL/VHDL.md",
     "TODO.md",
     "assets/flashcards/maths/prépa/premiere_annee/fiche/05_complexes.md",
@@ -230,8 +238,6 @@
     "assets/flashcards/maths/prépa/premiere_annee/fiche/04_dl.md",
     "assets/flashcards/maths/prépa/premiere_annee/td/09_suites_vecteurs.md",
     "assets/flashcards/maths/prépa/premiere_annee/cours/04_dl.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba/02_variables_lois.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/15_algebre_lineaire.md",
     "assets/images/generic/latex/latex_exemple_minipage.png",
     "assets/images/software eng/pytorch/overfitting_underfitting_curves.png",
     "assets/images/software eng/pytorch/experiment_tracking.png",
