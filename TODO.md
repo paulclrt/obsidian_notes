@@ -24,3 +24,7 @@
 
 ## Perso
 - [ ] Check INSEE and BCE inflation data for summer and start of fall in order to know should i sell my Bank ETF
+
+## Maths
+
+- [ ] Show prime numbers on unit circle
