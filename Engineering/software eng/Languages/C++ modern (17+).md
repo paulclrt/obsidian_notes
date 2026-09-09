@@ -1,1 +1,1 @@
-Read [[C (système)]] first, it is a basis for this.
+Read [[C_ANSI]] first, it is a basis for this.

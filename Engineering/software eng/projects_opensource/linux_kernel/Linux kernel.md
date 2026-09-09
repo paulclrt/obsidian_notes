@@ -27,7 +27,7 @@ This playlist is insanly good: [(1) Programmation du noyau Linux 01 : Compiler 
 Liste d’articles qui peuvent être plus introductif ; pas tous sont intéressants mais certains sont introductifs:
 [https://medium.com/@charlesedeki093](https://medium.com/@charlesedeki093)
 ## Links
-[[C (système)]]
+[[C_ANSI]]
 [[BIOS]]
 [[UEFI]]
 The linux kernel can run on risc-v cores [[Risc-v]]

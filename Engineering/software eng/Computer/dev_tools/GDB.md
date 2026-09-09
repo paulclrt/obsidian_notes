@@ -5,4 +5,4 @@ https://www.cs.princeton.edu/courses/archive/fall16/cos432/hw2/gdb-refcard.pdf
 
 
 ## Links
-[[C (système)]]
+[[C_ANSI]]

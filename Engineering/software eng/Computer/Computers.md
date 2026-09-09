@@ -7,7 +7,7 @@
 
 
 [[Lua]]
-[[C (système)]]
+[[C_ANSI]]
 [[C++ modern (17+)]]
 
 [[Linux kernel]]
