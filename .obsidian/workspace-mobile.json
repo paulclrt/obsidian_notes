@@ -11,10 +11,14 @@
             "id": "bedaa3fdc255fdfa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "diff-view",
+              "state": {
+                "aFile": "assets/flashcards/VHDL/basics.md",
+                "bFile": "assets/flashcards/VHDL/basics.md",
+                "aRef": ""
+              },
+              "icon": "git-pull-request",
+              "title": "Diff: basics"
             }
           }
         ]
@@ -196,11 +200,14 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "speed-reader:Speed read current note": false
     }
   },
   "active": "bedaa3fdc255fdfa",
   "lastOpenFiles": [
+    "Engineering/software eng/Machine Learning/pytorch/Pytorch 1 - Fondamentaux.md",
+    "assets/pdfs/Linux_Kernel_Development.pdf",
     "assets/code/pytorch/5.0_main.py.md",
     "Engineering/software eng/Machine Learning/pytorch/Pytorch 5 - Custom Datasets.md",
     "Engineering/hardware eng/HDL/VHDL.md",
@@ -232,12 +239,10 @@
     "assets/flashcards/maths/prépa/premiere_annee/fiche/12_calc_asympt.md",
     "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba/03_convergence.md",
     "assets/flashcards/maths/prépa/premiere_annee/cours/14_integration.md",
-    "assets/pdfs/maths/prépa/cours/dl.pdf",
     "assets/flashcards/maths/prépa/premiere_annee/summary/01_fonctions_trigonometrie.md",
     "assets/flashcards/maths/prépa/premiere_annee/fiche/03_logique/02_nombres_reels.md",
     "assets/flashcards/maths/prépa/premiere_annee/fiche/04_dl.md",
     "assets/flashcards/maths/prépa/premiere_annee/td/09_suites_vecteurs.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/04_dl.md",
     "assets/images/generic/latex/latex_exemple_minipage.png",
     "assets/images/software eng/pytorch/overfitting_underfitting_curves.png",
     "assets/images/software eng/pytorch/experiment_tracking.png",
