@@ -1,4 +1,58 @@
 
+
+## Multicols & maths
+
+![[latex_multicols.png|614]]
+To acheive this look use the following code:
+
+```latex
+%%%%%%%%%%%%%%%%%%% Doc definition and packages %%%%%%%%%%%%%%%%%%%
+\documentclass[10pt]{article}
+\usepackage[a4paper,landscape,margin=8mm]{geometry} % for the landscape layout used above
+
+\usepackage{multicol}   
+           
+% Maths packages
+\usepackage{amsmath}                                          % basics for maths
+\usepackage{amssymb}                                          % more symbols
+\usepackage{bbm}                                              % blackboard style font variants of computer modern for --> $\mathbbm{N}$ for Natural numbers symbol
+
+% styling
+\usepackage{xcolor}
+\usepackage{titlesec}                                         % customize section headers
+\usepackage{enumitem}                                         % same for item lists
+
+%%%%%%%%%%%%%%%%%%% Settings %%%%%%%%%%%%%%%%%%% 
+
+% For the LAYOUT and columns:
+% COLUMN styling
+\setlength{\columnsep}{8mm}                                   % Horizontal space/gap between columns
+\setlength{\parindent}{0pt}                                   % Remove default indentation at the beginning of each paragraph
+% GENERAL styling 
+\setlength{\emergencystretch}{2em}                            % Allow latex a extra 2ems of flexibility
+\sloppy                                                       % Relaxes LaTeX's strict spacing rules; prevents text from sticking out into margins
+% Customizes all 'itemize' lists globally: 
+% leftmargin=* aligns bullets with the left text margin 
+% itemsep controls the tiny vertical space between individual items 
+% topsep controls the vertical space before the list starts
+\setlist[itemize]{leftmargin=*, itemsep=0.12em, topsep=0.18em}
+% Adjusts spacing around \section headers: 
+% * removes the indentation of the first paragraph after the section 
+% {0pt} is the left margin indentation of the title 
+% {0.32em} is the tight vertical spacing *above* the section title 
+% {0.22em} is the tight vertical spacing *below* the section title
+\titlespacing*{\section}{0pt}{0.32em}{0.22em}
+
+%%%%%%%%%%%%%%%%%%% Doc content %%%%%%%%%%%%%%%%%%%
+
+\begin{multicols*}{3}
+
+\section*{Groupe et anneaux}
+...
+...
+
+\end{multicols*}
+```
 ## Minipage
 - Using `minipage` for complex designs and float lefts and rights:
 ```latex
@@ -279,3 +333,33 @@ The `\footnote` command is the core LaTeX command for creating footnotes and tak
 ![[footer_notes.png]]
 
 Very nicly explained: https://fr.overleaf.com/learn/latex/Footnotes
+
+
+
+## New commands and environements:
+
+```latex
+\newenvironment{definition}[1]{\textbf{Définition (#1):}\ }{\par}
+\newenvironment{defi}{\textbf{Définition:}\ }{\par}
+\newenvironment{prop}{\textbf{Propriété:}\ }{\par}
+\newenvironment{theo}{\textbf{Théorème:}\ }{\par}
+\newenvironment{methode}{\textbf{Méthode:}\ }{\par}
+\newenvironment{nota}{\textbf{Notation:}\ }{\par}
+\newenvironment{attention}{\textbf{Attention:}\ }{\par}
+
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+
+%%%%%%%%%%%%%%%%% USAGE %%%%%%%%%%%%%%%%%
+
+\begin{defi}
+...
+\end{defi}
+% same for prop etc... (it will render like the fiches for maths in this obsidian repo)
+```
+[[Calcul asymptotique]] <--- Exemple de rendu
