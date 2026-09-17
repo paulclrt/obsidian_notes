@@ -4,24 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "d7d340e493e43771",
+        "id": "9ffd79613e619a28",
         "type": "tabs",
         "children": [
           {
-            "id": "1b66bbbe4fdfa5b2",
+            "id": "2395226a26b41d8d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "assets/pdfs/maths/prépa/cours/Calculs_asymptotiques_2020.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Calculs_asymptotiques_2020"
+            }
+          },
+          {
+            "id": "13588a2109682bec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering/hardware eng/HDL/FPGA.md",
+                "file": "maths/prépa/Calcul asymptotique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FPGA"
+              "title": "Calcul asymptotique"
+            }
+          },
+          {
+            "id": "29a5fe2a4a67bf8f",
+            "type": "leaf",
+            "state": {
+              "type": "pm-dashboard",
+              "state": {},
+              "icon": "chart-gantt",
+              "title": "Projects"
+            }
+          },
+          {
+            "id": "2d3043eb93720362",
+            "type": "leaf",
+            "state": {
+              "type": "pm-project",
+              "state": {
+                "filePath": "Projects/Maths Rev.md"
+              },
+              "icon": "chart-gantt",
+              "title": "Maths Rev"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -173,8 +208,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
@@ -182,11 +217,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "speed-reader:Speed read current note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -199,54 +235,54 @@
       "project-manager:Project manager": false
     }
   },
-  "active": "1b66bbbe4fdfa5b2",
+  "active": "2d3043eb93720362",
   "lastOpenFiles": [
-    "Engineering/software eng/projects_opensource/linux_kernel/Linux kernel.md",
-    "TODO.md",
-    "assets/pdfs/Linux_Kernel_Development.pdf",
-    "Engineering/hardware eng/HDL/VHDL.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/18_proba/03_convergence.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/18_proba/02_variables_lois.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/18_proba/01_espace_conditionnement.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/18_proba/03_convergence.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/18_proba/02_variables_lois.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/18_proba/01_espace_conditionnement.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba/03_convergence.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba/02_variables_lois.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba/01_espace_conditionnement.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/18_proba",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/18_proba",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/18_proba",
-    "repo-skills.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/13_polynomes/03_fractions_rationnelles.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/13_polynomes/02_racines_interpolation.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/13_polynomes/01_algebre_arithmetique.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/13_polynomes/03_fractions_rationnelles.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/13_polynomes/02_racines_interpolation.md",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/13_polynomes/01_algebre_arithmetique.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/13_polynomes/03_fractions_rationnelles.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/13_polynomes/02_racines_interpolation.md",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/13_polynomes/01_algebre_arithmetique.md",
-    "assets/flashcards/maths/prépa/premiere_annee/td/13_polynomes",
-    "assets/flashcards/maths/prépa/premiere_annee/fiche/13_polynomes",
-    "assets/flashcards/maths/prépa/premiere_annee/cours/13_polynomes",
-    "assets/flashcards/VHDL/hardware_engineering.md",
-    "assets/flashcards/VHDL/simulation_verification.md",
-    "assets/flashcards/VHDL/rtl_design.md",
-    "assets/flashcards/VHDL/basics.md",
-    "assets/flashcards/VHDL",
-    "dev-plugins/Untitled.base",
-    "Projects",
-    "assets/images/software eng/pytorch/tensor_board_screenshot_exemple.png",
-    "assets/images/software eng/pytorch/experiment_tracking.png",
-    "assets/images/software eng/pytorch/sota_pytorch_cmdline.png",
-    "assets/images/software eng/pytorch/overfitting_underfitting_curves.png",
-    "assets/images/software eng/pytorch/confusion_matrix.png",
-    "assets/images/software eng/pytorch/pytorch_decision_boundary.png",
-    "assets/images/hardware eng/VHDL/gtkwave_screenshot.png",
-    "assets/images/hardware eng/VHDL/edaplayground.png",
-    "assets/images/generic/latex/latex_exemple_minipage.png",
-    "assets/images/finance/videos/leopaul_hermes_analyse.png",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/12_calc_asymptotique/12_relation_d_equivalence.md",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/12_calc_asymptotique/12_DL.md",
+    "lien vers assets/pdfs/maths/prépa/fiche/la fiche ev.md",
+    "assets/pdfs/maths/prépa/cours/Calculs_asymptotiques_2020.pdf",
+    "maths/prépa/Calcul asymptotique.md",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/06_groupes_anneaux.md",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/12_calc_asymptotique/12_préponderance_domination.md",
+    "assets/pdfs/maths/prépa/tds/td20_calculo_asympt_corrige.pdf",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/03_logique/01_ensembles_logique_relations.md",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/11_limites_continuite.md",
+    "assets/flashcards/maths/prépa/premiere_annee/cours/12_calc_asymptotique",
+    "Projects/Maths Rev_tasks/créer-flashcards-(connaissances_essentielles-+-exercices_bas.md",
+    "Projects/Maths Rev_tasks/exercices-dl.md",
+    "Projects/Maths Rev_tasks/fiche-dl.md",
+    "Projects/Maths Rev_tasks/cours-dl.md",
+    "Projects/Maths Rev_tasks/relecture-cours-dl-(calcul-asymptotique).md",
+    "Projects/Maths Rev_tasks/créer-et-apprendre-fiche.md",
+    "Projects/Maths Rev_tasks/lecture-cours.md",
+    "Projects/Maths Rev_tasks/lecture-et-apprendre-espaces-préhilbertiens.md",
+    "maths/prépa/Suites de vecteurs.md",
+    "maths/prépa/Sommabilité.md",
+    "maths/prépa/Séries de vecteurs.md",
+    "maths/prépa/Résumé prépa.md",
+    "maths/prépa/Probabilités.md",
+    "maths/prépa/Polynômes.md",
+    "maths/prépa/Logique et vocabulaire ensembliste.md",
+    "maths/prépa/Dérivation.md",
+    "maths/prépa/Dérivation et intégration.md",
+    "maths/prépa/Développements limités.md",
+    "assets/pdfs/maths/prépa/cours/ev_structure.pdf",
+    "lien vers assets/pdfs/maths/prépa/fiche",
+    "lien vers assets/pdfs/maths/prépa",
+    "lien vers assets/pdfs/maths",
+    "lien vers assets/pdfs",
+    "lien vers assets",
+    "Projects/Maths Rev_tasks",
+    "Pasted image 20260915211905.png",
+    "assets/images/generic/latex/latex_multicols.png",
+    "assets/images/generic/latex/fonts.png",
+    "assets/images/generic/latex/list_of_tables_renames.png",
+    "assets/images/generic/latex/footer_notes.png",
+    "assets/images/generic/latex/renaming_toc.png",
+    "assets/images/generic/latex/list_fo_figures.png",
+    "assets/images/generic/latex/figures_refereences.png",
+    "assets/images/generic/latex/caption_above_figure.png",
+    "assets/images/generic/latex/images_in_text.png",
     "software eng/projects_opensource/linux_kernel/Kernel calls.canvas"
   ]
 }
