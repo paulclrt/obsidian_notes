@@ -22,6 +22,8 @@ $$
 f(x) = \mathbf{O}_{\substack{x\to a \\ x \in A}} (g(x)) \quad ou \quad f = \mathbf{O}(g)
 $$
 Et on dit que *"f est dominée par g en a"*
+<!--SR:!2026-09-22,4,270-->
+
 
 ## Propriétés de la domination
 
@@ -36,6 +38,7 @@ Composition:     $\mathbf{O}(\mathbf{O}(f)) = \mathbf{O}(f)$
 Addition:          $\mathbf{O}(f) + \mathbf{O}(f) = \mathbf{O}(f)$
 Produit:            $\mathbf{O}(\varphi) . \mathbf{O}(f) =  \mathbf{O}(\varphi . f)$    avec           $\varphi : A \longmapsto \mathbb{K}$    (fonction scalaire)
 Puissance:         $\mathbf{O}(f)^\alpha = \mathbf{O}(f^\alpha)$
+<!--SR:!2026-09-22,4,270-->
 
 
 ## Domination et limite vers 0
@@ -51,6 +54,8 @@ $$
 f(x)\rightarrow 0
 $$
 quand $x\rightarrow a$ et $a \in A$
+<!--SR:!2026-09-22,4,270-->
+
 
 ## Domination et borne pour $\mathbf{O}$
 
@@ -61,6 +66,7 @@ Si et seulement si:
 $$
 x \longmapsto \frac{\|f(x)\|}{\|g(x)\|} \quad est\ bornée\ au\ voisinage\ de\ a
 $$
+<!--SR:!2026-09-19,1,230-->
 
 
 ## Notion de prépondérance
@@ -84,6 +90,8 @@ $$
 f(x) = o(g(x)) \quad ou \quad f = o(g)
 $$
 Et on dit que *"f est négligeable devant g en a"*
+<!--SR:!2026-09-22,4,270-->
+
 
 ## Propriétés de la prépondérance
 
@@ -102,6 +110,8 @@ composition avec $o$:                      $o(o(f)) = o(f)$
 Somme avec $o$:                            $o(f) + o(f) = o(f)$
 Produit avec une fonction scalaire:  $o(f) + o(\varphi) = o(\varphi . f)$ et $\mathbf{O}(\varphi).o(f) = o(\varphi . f)$
 Puissance/dérivé:                         $o(f)^\alpha = o(f^\alpha)$
+<!--SR:!2026-09-21,3,250-->
+
 
 ## Prépondérance et $o(1)$
 
@@ -110,6 +120,7 @@ Quand est-ce que:
 $f = o(1)$
 ?
 $f(x)\longmapsto 0$ pour $x \rightarrow a$
+<!--SR:!2026-09-18,0,230-->
 
 
 ## Egaité de prépondérance
@@ -121,6 +132,7 @@ Elle n'est plus symétrique:
 $f = o(h)$ et $g = o(h)$ ne veut pas dire que $f = g$
 <!--SR:!2026-09-21,4,270-->
 
+
 ## Domination et borne pour prépondérance
 
 
@@ -130,6 +142,8 @@ Si et seulement si:
 $$
 \frac{\|f(x)\|}{\|g(x)\|} \longmapsto 0
 $$
+<!--SR:!2026-09-22,4,270-->
+
 
 ## Théorème des croissances comparées
 
@@ -140,5 +154,6 @@ Donner le théorème des croissances comparées pour $ln^\alpha(n)$, $n^\beta$, 
 2. Au voisinage de $+\infty$, les fonctions $\ln^\alpha x$, $x^\beta$ et $e^{\gamma x}$ tendent vers $+\infty$ et chacune est négligeable devant les suivantes.
 3. Au voisinage de $0^+$, $\vert{}\ln x\vert{}^\alpha = o\left(\frac{1}{x^\beta}\right)$.
 4. Au voisinage de $-\infty$, $e^{\gamma x} = o\left(\frac{1}{\vert{}x\vert{}^\beta}\right)$.
+<!--SR:!2026-09-21,3,250-->
 
 
