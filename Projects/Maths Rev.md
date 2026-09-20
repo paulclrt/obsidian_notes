@@ -10,7 +10,7 @@ customFields: []
 teamMembers: ["Paul"]
 savedViews: []
 createdAt: "2026-09-15T19:34:55.171Z"
-updatedAt: "2026-09-17T12:19:00.245Z"
+updatedAt: "2026-09-19T07:34:54.344Z"
 ---
 
 # 📋 Maths Rev
@@ -18,5 +18,5 @@ updatedAt: "2026-09-17T12:19:00.245Z"
 Révisions mathématiques, fiches, cours, exercices etc.
 
 ## Tasks
-- [ ] [[relecture-cours-dl-(calcul-asymptotique)|Relecture cours DL (calcul asymptotique)]]
+- [x] [[relecture-cours-dl-(calcul-asymptotique)|Relecture cours DL (calcul asymptotique)]]
 - [ ] [[lecture-et-apprendre-espaces-préhilbertiens|Lecture et Apprendre espaces préhilbertiens]]
