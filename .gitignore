@@ -1,2 +1,6 @@
 dev-plugins/
 dev-plugins/*
+.excalidraw/
+.excalidraw/*
+.obsidian/
+.obsidian/*
