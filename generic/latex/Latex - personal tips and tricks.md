@@ -361,5 +361,12 @@ Very nicly explained: https://fr.overleaf.com/learn/latex/Footnotes
 ...
 \end{defi}
 % same for prop etc... (it will render like the fiches for maths in this obsidian repo)
+
+
+
+% Here are how to to limits with multiple elements below the arrow
+f(x) \xrightarrow[\substack{x\to a\\ x\in B}]{} l
+
+f(x) \underset{\substack{x\rightarrow a \\ a \in A}}{\longrightarrow} l
 ```
 [[Calcul asymptotique]] <--- Exemple de rendu
