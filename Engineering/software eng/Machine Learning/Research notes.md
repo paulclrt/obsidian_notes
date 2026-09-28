@@ -20,3 +20,10 @@ When looking at these frameworks applied to older vs. newer models, the industry
 # Bigger is better
 The bitter lesson - rich sutton
 http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+
+
+
+## Laya and classifiers back in the game after LLMs ?
+
+https://arxiv.org/pdf/2603.16281 <-- not sure this is the right article. the next one sounds better
+https://arxiv.org/pdf/2511.12723

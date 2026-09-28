@@ -370,3 +370,59 @@ f(x) \xrightarrow[\substack{x\to a\\ x\in B}]{} l
 f(x) \underset{\substack{x\rightarrow a \\ a \in A}}{\longrightarrow} l
 ```
 [[Calcul asymptotique]] <--- Exemple de rendu
+
+
+##  Chemistry molecules
+
+```latex
+\usepackage{chemfig}
+
+\chemfig{H-H} \\
+\chemfig{O=O} \\
+\chemfig{H-C~C-H} \\
+
+Methane:
+\chemfig{[,0.8]C(-[2]H)(-[4]H)(-[6]H)-H}
+```
+Chemgig uses tikz underneath 
+Simple bonds: -
+Double bonds: =
+Tripe bonds: ~
+Options in square brackets, separated by comma
+![[chem_latex_bonds.png|316]]
+
+To define bonds angles you use the numeric option:
+```latex
+
+\chemfig{A-[1]B-[7]C} % each unit is 45 degrees
+% or absolute angles
+\chemfig{A-[:50]B-[:25]C}
+% relative angles
+\chemfig{A-[::50]B-[::-23]C}
+```
+
+Rings:
+```latex
+\chemfig{A*5(-B=C-D-E=)}
+\chemfig{A*5(-B=C-D)}
+```
+![[chem_latex_rings.png]]![[chem_latex_angles.png|232]]
+the synthax for rings is the following:
+A is the first atom the rest is drawn from it.
+`*5` is the number of side of the polygon
+`(-B=C-D-E=)` is the rest of the molécule.
+You can also pass `**5` instead of `*5` to draw a circle inside the polygon.
+
+```latex
+% caffeine molecule
+\chemfig{*6((=O)-N(-)-(*5(-N=-N(-)-))=-(=O)-N(-)-)}
+```
+
+Set the molecule name and other customization
+```latex
+    \setchemfig{atom sep=2em,bond style={line width=1pt,red,dash pattern=on 2pt off 2pt}}  
+    \chemname
+    {\chemfig{H-C(-[2]H)(-[6]H)-C(=[1]O)-[7]H}}    
+    {Acetaldehyde}
+```
+![[chem_latex_ceffein.png]]![[chem_latex_advanced.png]]

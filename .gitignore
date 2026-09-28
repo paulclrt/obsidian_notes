@@ -4,3 +4,5 @@ dev-plugins/*
 .excalidraw/*
 .obsidian/
 .obsidian/*
+tmp/
+tmp/*
