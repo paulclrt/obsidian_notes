@@ -1,0 +1,1 @@
+**Def:** concentration de potassium dans le plasma sanguin.
